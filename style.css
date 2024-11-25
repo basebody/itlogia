@@ -1,7 +1,13 @@
 body {
     width: 100vw;
     height: 100vh;
+    margin: 0;
     background: #212121;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -20,7 +26,7 @@ body {
     border: solid 1px #fff;
     padding: 15px;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin: 5px 0 15px 0;
     width: auto;
     text-align: center;
     min-width: 100px;
@@ -37,4 +43,5 @@ body {
 
 .wrapper > iframe {
     border: solid 2px #fff;
+    width: clamp(100px, 80vw, 560px);
 }

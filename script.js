@@ -14,6 +14,6 @@ function selectLesson(value) {
         case "5": return "https://www.youtube.com/embed/jaMkWpfymOc";
         case "6": return "https://www.youtube.com/embed/nXa9aexl6AI";
         case "7": return "https://www.youtube.com/embed/BCCX9mCVWEE";
-        case "8": return "https://www.youtube.com/embed/lDk-1etgVr8";
+        case "Бонус": return "https://www.youtube.com/embed/lDk-1etgVr8";
     }
 }

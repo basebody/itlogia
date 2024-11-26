@@ -48,6 +48,6 @@ main {
 
 @media (max-width: 700px) {
     .wrapper > iframe {
-        height: calc(80vw / 1.7);
+        height: calc(76.7vw / 1.7);
     }
 }

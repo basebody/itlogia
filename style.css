@@ -43,6 +43,11 @@ main {
 
 .wrapper > iframe {
     border: solid 2px #fff;
-    /* height: calc(80vw / 1.7); */
     width: clamp(100px, 80vw, 560px);
+}
+
+@media (max-width: 700px) {
+    .wrapper > iframe {
+        height: calc(80vw / 1.7);
+    }
 }

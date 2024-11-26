@@ -2,10 +2,10 @@ const select = document.querySelector("select#lesson-picker");
 const iframe = document.querySelector("iframe");
 
 select.addEventListener("change", () => {
-    iframe.setAttribute("src", selectLesson(select.value));
+    iframe.setAttribute("src", getLesson(select.value));
 });
 
-function selectLesson(value) {
+function getLesson(value) {
     switch (value) {
         case "1": return "https://www.youtube.com/embed/JsjkQH1snEE";
         case "2": return "https://www.youtube.com/embed/RW4I2rJFMNw";

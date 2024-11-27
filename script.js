@@ -1,8 +1,10 @@
 const select = document.querySelector("select#lesson-picker");
 const iframe = document.querySelector("iframe");
+const downloadBtn = document.querySelector(".wrapper > a");
 
 select.addEventListener("change", () => {
     iframe.setAttribute("src", getLesson(select.value));
+    // if (select.value === 2) {downloadBtn.innerHTML = "Download materials for lesson 2";};
 });
 
 function getLesson(value) {

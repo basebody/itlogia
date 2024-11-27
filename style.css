@@ -46,6 +46,35 @@ main {
     width: clamp(100px, 80vw, 560px);
 }
 
+.wrapper > iframe:hover {
+    transform: scale(1.1);
+}
+
+.wrapper > a {
+    display: none;
+    font-weight: 550;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    background: #202020;
+    border: solid 1px #fff;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 5px 0 15px 0;
+    width: auto;
+    text-align: center;
+    min-width: 100px;
+    max-width: 120px;
+    height: 55px;
+    cursor: pointer;
+    transition: border .1s ease;
+}
+
+.wrapper > a:hover {
+    outline: none;
+    border: solid 3px #fff;
+}
+
 @media (max-width: 700px) {
     .wrapper > iframe {
         height: calc(76.7vw / 1.7);

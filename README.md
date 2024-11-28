@@ -4,6 +4,8 @@
 
 ### itlogia is - a repository and website with video lessons by itlogia "Frontend intensive"
 
+## 📘 Materials
+
 ### it contains 8 lessons:
 - **Lesson 1**
 - **Lesson 2**

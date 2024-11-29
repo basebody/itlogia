@@ -46,12 +46,9 @@ main {
     width: clamp(100px, 80vw, 560px);
 }
 
-.wrapper > iframe:hover {
-    transform: scale(1.1);
-}
-
 .wrapper > a {
     display: none;
+    font-family: 'Arial', sans-serif;
     font-weight: 550;
     font-size: 17px;
     text-decoration: none;
@@ -60,14 +57,14 @@ main {
     border: solid 1px #fff;
     padding: 15px;
     border-radius: 15px;
-    margin: 5px 0 15px 0;
+    margin: 10px 0 0 0;
     width: auto;
     text-align: center;
     min-width: 100px;
-    max-width: 120px;
-    height: 55px;
+    max-width: 330px;
+    height: 17px;
     cursor: pointer;
-    transition: border .1s ease;
+    transition: all .1s ease;
 }
 
 .wrapper > a:hover {

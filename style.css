@@ -24,14 +24,14 @@ main {
     background: #202020;
     appearance: none;
     border: solid 1px #fff;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 12px;
     margin: 5px 0 15px 0;
     width: auto;
     text-align: center;
-    min-width: 100px;
-    max-width: 120px;
-    height: 55px;
+    min-width: 80px;
+    max-width: 100px;
+    height: 45px;
     cursor: pointer;
     transition: border .1s ease;
 }
@@ -55,14 +55,15 @@ main {
     color: #fff;
     background: #202020;
     border: solid 1px #fff;
-    padding: 15px;
+    padding: 12px;
     border-radius: 15px;
     margin: 10px 0 0 0;
     width: auto;
     text-align: center;
     min-width: 100px;
     max-width: 330px;
-    height: 17px;
+    min-height: 17px;
+    max-height: 35px;
     cursor: pointer;
     transition: all .1s ease;
 }
@@ -75,5 +76,17 @@ main {
 @media (max-width: 700px) {
     .wrapper > iframe {
         height: calc(76.7vw / 1.7);
+    }
+}
+
+@media (max-width: 400px) {
+    .wrapper > a {
+        font-size: 14px;
+        min-width: 100px;
+        max-width: 250px;
+        height: 17px;
+    }
+    .wrapper > select {
+        font-size: 14px;
     }
 }

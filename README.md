@@ -1,6 +1,6 @@
 # itlogia
 
-[![Generic badge](https://img.shields.io/badge/itlogia.ru-purple.svg)](https://elevenlabs.io/)
+[![Generic badge](https://img.shields.io/badge/itlogia.ru-purple.svg)](https://itlogia.ru/)
 
 ### itlogia is - a repository and website with video lessons by itlogia "Frontend intensive"
 
